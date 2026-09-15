@@ -16,7 +16,6 @@ public class bai12_docVaGhiFileImg {
             BufferedImage img = ImageIO.read(new ByteArrayInputStream(bfile));
             ImageIO.write(img, tfile, path);
         } catch (IOException ex) {
-            // TODO: handle exception
             Logger.getLogger(bai12_docVaGhiFileImg.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -32,7 +31,6 @@ public class bai12_docVaGhiFileImg {
             fis.close();
             return bos.toByteArray();
         } catch (IOException ex) {
-            // TODO: handle exception
             Logger.getLogger(bai12_docVaGhiFileImg.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
