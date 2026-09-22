@@ -23,12 +23,12 @@ public class TCPEchoServer {
                     }
                     s.close();
                 } catch (IOException ie1) {
-                    // TODO: handle exception
+                    
                     System.out.print("Connection Error: "+ie1);
                 }
             }
         } catch (IOException ie) {
-            // TODO: handle exception
+            
             System.out.println("Server Creation Error: "+ie);
         }
     }
